@@ -1,0 +1,27 @@
+#Exercício para declarar um array e preencher com os meses do ano
+
+funcao start():
+        print('Olá!')
+
+/*
+array_5 = [1 até 12]
+array_5[0] = Janeiro
+array_5[1] = Fevereiro
+array_5[2] = Marco
+array_5[3] = Abril
+array_5[4] = Maio
+array_5[5] = Junho
+array_5[6] = Julho
+array_5[7] = Agosto
+array_5[8] = Setembro
+array_5[9] = Outubro
+array_5[10] = Novembro
+array_5[11] = Dezembro
+
+print("Bem vindo à este programa, estes são os dados do seu array inicial: ", + array_5 + ".")
+*/
+
+array_5 = ['meses_do_ano' -> Janeiro, Fevereiro, Marco, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
+print(array_5['meses_do_ano'])
+
+

@@ -1,0 +1,14 @@
+#Exercício para declarar um array e verificar se um elemento está presente
+
+funcao start():
+        print('Olá!')
+
+array_5 = [0, 1, 2, 3, 4]
+
+entrada("Indique um número de 0 à 10 para saber se ele se encontra no array: ", encontrar_elemento )
+
+    para cada elemento em lista(array_5)
+            se elemento == encontrar_elemento
+                print("O seu elemento encontra se no array.")
+            senao
+                print("O seu elemento não se encontra no array.")

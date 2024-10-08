@@ -1,0 +1,15 @@
+#Exercício para declarar um array com valores fornecidos pelo user
+
+funcao start():
+        print('Olá!')
+
+array = []
+
+entrada("Por favor introduza o 1º Elemento do Array:", array1)
+array_5[0] == array1
+entrada("Por favor introduza o 2º Elemento do Array:", array2)
+array_5[1] == array3
+entrada("Por favor introduza o 3º Elemento do Array:", array3)
+array_5[2] == array3
+
+print("Bem vindo à este programa, este é o seu array: ", + array + ".")

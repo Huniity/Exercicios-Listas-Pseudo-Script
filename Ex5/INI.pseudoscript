@@ -1,0 +1,12 @@
+#Exercício para declarar um array e adicionar um elemento no fim do array
+
+funcao start():
+        print('Olá!')
+
+array_5 = [1, 2, 3, 4, 5]
+
+print("Bem vindo à este programa, estes são os dados do seu array inicial: ", + array_5 + ".")
+
+array_5[5] = 6
+
+print("Bem vindo à este programa, estes são os dados do seu novo array: ", + array_5 + ".")

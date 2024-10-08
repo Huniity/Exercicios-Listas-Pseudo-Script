@@ -1,0 +1,8 @@
+#Exercício para declarar um array com dias da semana
+
+funcao start():
+        print('Olá!')
+
+array_5 = ['dia_da_semana' -> Segunda, Terca, Quarta, Quinta, Sexta, Sabado, Domingo]
+
+print(array_5['dia_da_semana'])

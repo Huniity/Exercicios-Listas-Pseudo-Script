@@ -1,0 +1,8 @@
+#Exercício para declarar um array vazio
+
+funcao start():
+        print('Olá!')
+
+empty_array = [""]
+
+print("Bem vindo à este programa, este é o array: ", + empty_array + ".")

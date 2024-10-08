@@ -1,0 +1,8 @@
+#Exercício para declarar um array com 10 números
+
+funcao start():
+        print('Olá!')
+
+array_5 = [de 1 até 10]
+
+print("Bem vindo à este programa, este é o array: ", + array_5 + ".")

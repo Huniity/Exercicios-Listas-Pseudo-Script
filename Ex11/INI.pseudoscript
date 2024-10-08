@@ -1,0 +1,11 @@
+#Exercício para declarar um array e define uma repetição do número 3
+
+funcao start():
+        print('Olá!')
+
+array_5 = [1,2,3,4,5]
+
+para cada elemento em lista(array)
+    elemento == 3
+
+print("Bem vindo à este programa, este é o seu array: ", + array_5 + ".")

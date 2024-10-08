@@ -1,0 +1,8 @@
+#Exercício para declarar um array e aceder ao 3º elemento do array
+
+funcao start():
+        print('Olá!')
+
+array_5 = [a, b, c, d, e]
+
+print("Bem vindo à este programa, este é o array que escolheu: ", + array_5[2] + ".")

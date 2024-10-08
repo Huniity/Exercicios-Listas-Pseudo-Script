@@ -1,0 +1,9 @@
+#Exercício para declarar um array e verificar o tamanho do array
+
+funcao start():
+        print('Olá!')
+
+array_5 = [0, 1, 2, 3, 4]
+tamanho_array_5 = tamanho(array_5)
+
+print("Bem vindo à este programa, este é o tamanho do seu array: ", + tamanho_array_5 + ".")

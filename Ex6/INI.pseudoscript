@@ -1,0 +1,15 @@
+#Exercício para declarar um array e remover o último elemento do array
+
+funcao start():
+        print('Olá!')
+
+array_5 = [0, 1, 2, 3, 4]
+tamanho_array_5 = tamanho(array_5)
+
+print("Bem vindo à este programa, este é o array: ", + array_5 + ".")
+
+novo_tamanho_array_5 = tamanho(array_5) - 1 #Novo tamanho
+primeiroElemento = array_5[0]
+array_5 = (array_5 - novo_tamanho_array_5) #Remove o último dígito
+
+print("Bem vindo à este programa, este é o novo array: ", + array_5 + ".")
