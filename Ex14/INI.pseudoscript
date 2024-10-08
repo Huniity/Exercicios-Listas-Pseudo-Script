@@ -1,0 +1,11 @@
+#Exercício para somar dois array 
+
+funcao start():
+        print('Olá!')
+
+array_1 = [1]
+array_2 = [2]
+soma(array_1[0] + array_2[0])
+    retorna array_3
+
+print("Bem vindo à este programa, este é o resultado da soma dos seus arrays iniciais: ", + array_3 + ".")

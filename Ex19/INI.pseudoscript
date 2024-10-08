@@ -1,0 +1,13 @@
+#Exercício para descobrir se um elementos é maior que outro dentro de um array
+
+funcao start():
+        print('Olá!')
+
+array_1 = [1, 2, 3, 4, 4, 5, 5, 6]
+maior = array_1[0]
+
+    para cada elemento em lista(1, (array_1)- 1)
+        se elemento > maior
+            maior = array_1[elemento]
+
+            imprime("Este é o seu elemento mais alto do array: ", + maior +)

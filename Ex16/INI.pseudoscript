@@ -1,0 +1,9 @@
+#Exercício para copiar o elemento de um array para outro
+
+funcao start():
+        print('Olá!')
+
+array_1 = [1, 2, 3, 4, 5]
+array_2 = array_1
+
+print("Bem vindo à este programa, este é o seu novo array: ", + array_2 + ".")

@@ -1,0 +1,16 @@
+#Exercício para descobrir se um elementos é maior que outro dentro de um array
+
+funcao start():
+        print('Olá!')
+
+array_1 = [1, 2, 3, 4, 4, 5, 5, 6]
+    tamanho_array_1 = tamanho(array_1)
+
+total = 0
+
+    para cada elemento em lista(array_1)
+        soma(total + elemento)
+            retorne total
+                dividir(total % tamanho_array_1)
+                    retorne media
+                        imprime("A média do seu array é de: ", + media +)
