@@ -3,15 +3,11 @@
 funcao start():
         print('Olá!')
 
-array_1 = [1, 2, 3, 4, 4, 5, 5, 6]
+array_1 = [1, 2, 3, 3, 4, 4, 5, 5, 6]
 array_2 =[]
 
-    para cada elemento em lista(array_1)
+    para cada elemento em array_1
         se elemento nao esta em array_2
+                array_2.adicionar(elemento)
 
-        #transferir item em array_2
-
-
-    
-
-print("Bem vindo à este programa, este é o seu novo array: ", + array_2 + ".")
+imprime("Bem vindo à este programa, este é o seu novo array: ", + array_2 + ".")

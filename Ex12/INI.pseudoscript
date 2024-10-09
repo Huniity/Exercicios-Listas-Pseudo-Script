@@ -5,4 +5,4 @@ funcao start():
 
 array_5 = ['dia_da_semana' -> Segunda, Terca, Quarta, Quinta, Sexta, Sabado, Domingo]
 
-print(array_5['dia_da_semana'])
+imprime(array_5['dia_da_semana'])

@@ -1,0 +1,17 @@
+#Busque a posição de um elemento num array.
+
+funcao start():
+        print('Olá!')
+
+array_1 = [7, 13, 24, 30, 32]
+tamax_indice = tamanho(array_1) - 1
+indice = 0
+
+entrada("Por favor introduza o elemento do Array que deseja procurar", busca)
+
+    enquanto tamanho_array_1 > 0
+        para cada elemento em array_1
+            se elemento == busca
+                imprime("O elemento foi encontrado" + array_1[elemento]+ )
+                
+

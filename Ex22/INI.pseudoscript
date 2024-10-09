@@ -1,0 +1,21 @@
+#Ordene os elementos de um array em ordem crescente.
+
+lista = [23, 7, 30, 13, 36]
+indices_a_ignorar = []
+
+funcao find_lesser(lista, indices_a_ignorar):
+    menor_numero = lista[0]
+    indice_encontrado = 0
+    indice_atual = 0
+    cada valor em lista:
+        se indice_encontrado está em indices_a_ignorar
+            continua()
+        se valor < menor_numero:
+            menor_numero = valor
+            indice_encontrado = indice_atual
+    indice_atual=indice_atual + 1
+            retorne indice_encontrado
+    
+        
+
+

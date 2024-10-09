@@ -9,4 +9,4 @@ array_2 = [26, 30, 34]
 soma(array_1 + array_2)
     retorna array_3
 
-print("Bem vindo à este programa, este é o seu novo array: ", + array_3 + ".")
+imprime("Bem vindo à este programa, este é o seu novo array: ", + array_3 + ".")

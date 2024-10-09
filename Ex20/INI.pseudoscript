@@ -4,7 +4,7 @@ funcao start():
         print('Olá!')
 
 array_1 = [1, 2, 3, 4, 4, 5, 5, 6]
-    tamanho_array_1 = tamanho(array_1)
+tamanho_array_1 = tamanho(array_1)
 
 total = 0
 

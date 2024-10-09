@@ -3,17 +3,16 @@
 funcao start():
         print('Olá!')
 
-array_5 = [1,2,3,4,5]
+array_5 = [1, 2, 3, 3, 4, 5]
 tamanho = tamanho(array_5)
 
 enquanto tamanho > 0 
     para cada elemento em lista(array)
         elemento == 3
             tamanho = tamanho - 1
-    continua()
-quebra()
+    quebra()
 
 # ou
 # array_5 = [3] * 5
 
-print("Bem vindo à este programa, este é o seu array: ", + array_5 + ".")
+imprime("Bem vindo à este programa, este é o seu array: ", + array_5 + ".")

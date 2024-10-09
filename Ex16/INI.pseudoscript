@@ -12,5 +12,3 @@ enquanto tamanho_array_1 > 0
         para cada elemento em lista(array_1)
                 array_2.adicionar(array_1[elemento])        
                         tamanho_array_1 = tamanho_array_1 - 1
-        continua()
-quebra()

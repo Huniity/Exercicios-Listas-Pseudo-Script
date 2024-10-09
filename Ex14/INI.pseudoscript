@@ -4,8 +4,8 @@ funcao start():
         print('Olá!')
 
 
-print("Bem vindo à este programa, este é o valor do seu primeiro array: ", + array_1 + ".")
-print("Este é o seu segundo array: ", + array_2 + ".")
+imprime("Bem vindo à este programa, este é o valor do seu primeiro array: ", + array_1 + ".")
+imprime("Este é o seu segundo array: ", + array_2 + ".")
 
 array_1 = [7, 13, 23]
 array_2 = [26, 30, 34]
@@ -18,7 +18,6 @@ enquanto tamanho_array_3 > 0
     para cada elemento em lista(array_3)
         soma = soma + elemento
             tamanho = tamanho - 1
-        continua()    
-quebra()
 
-print("Bem vindo à este programa, este é o resultado da soma dos seus arrays iniciais: ", + soma + ".")
+
+imprime("Bem vindo à este programa, este é o resultado da soma dos seus arrays iniciais: ", + soma + ".")

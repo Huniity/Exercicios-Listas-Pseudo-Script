@@ -1,14 +1,15 @@
-#Exercício para copiar o elemento de um array para outro
+#Exercício Inverta a ordem dos elementos num array.
 
 funcao start():
         print('Olá!')
 
+
 array_1 = [1, 2, 3, 4, 5]
 array_2 = []
-    tamanho_array_1 = tamanho(array_1) - 1
+indice_max_a1 = array_1.tamanho() - 1
 
+enquanto indice_max_a1 >= 0
+        array_2.adicionar(array_1[indice_max_a1])
+                        indice_max_a1 = indice_max_a1 -1
 
-    para cada elemento em lista(array_1)
-        array_2 = array_1[tamanho_array_1 - elemento]
-
-print("Bem vindo à este programa, este é o seu novo array: ", + array_2 + ".")
+imprime("O seu array normal é " + array_1 + " e o seu array invertido é " + array_2 + ".")

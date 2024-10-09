@@ -22,6 +22,6 @@ print("Bem vindo à este programa, estes são os dados do seu array inicial: ", 
 */
 
 array_5 = ['meses_do_ano' -> Janeiro, Fevereiro, Marco, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
-print(array_5['meses_do_ano'])
+imprime(array_5['meses_do_ano'])
 
 
