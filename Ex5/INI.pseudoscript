@@ -3,10 +3,11 @@
 funcao start():
         print('Olá!')
 
-array_5 = [1, 2, 3, 4, 5]
+        array_5 = [7, 13, 24, 30, 32]
 
-print("Bem vindo à este programa, estes são os dados do seu array inicial: ", + array_5 + ".")
+        print("Bem vindo à este programa, estes são os dados do seu array inicial: ", + array_5 + ".")
 
-array_5[5] = 6
+        entrada("Por introduza o novo valor do elemento", userNum)
+                array_5.adicionar(userNum)
 
-print("Bem vindo à este programa, estes são os dados do seu novo array: ", + array_5 + ".")
+        print("Bem vindo à este programa, estes são os dados do seu novo array: ", + array_5 + ".")

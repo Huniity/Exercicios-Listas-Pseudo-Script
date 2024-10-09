@@ -3,6 +3,6 @@
 funcao start():
         print('Olá!')
 
-array_5 = [de 1 até 10]
+array_5 = [de 0 até 9]
 
 print("Bem vindo à este programa, este é o array: ", + array_5 + ".")

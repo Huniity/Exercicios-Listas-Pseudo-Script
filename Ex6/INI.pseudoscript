@@ -3,13 +3,23 @@
 funcao start():
         print('Olá!')
 
-array_5 = [0, 1, 2, 3, 4]
-tamanho_array_5 = tamanho(array_5)
+array_5 = [0, 1, 2, 3, 4] #Array Original
+tamanho_array_5 = tamanho(array_5) #Tamanho array original
+novo_tamanho_array_5 = tamanho_array_5 - 1 #Novo tamanho
+array_4 = array_4[0] * novo_tamanho_array_5 #Novo tamanho de array
+elemento_remover = array[4] #Elemento que queremos remover
+pos_0 = 0 #Posição inicial para novo array
 
-print("Bem vindo à este programa, este é o array: ", + array_5 + ".")
+print("Bem vindo à este programa, este é o seu array: ", + array_5 + ".")
 
-novo_tamanho_array_5 = tamanho(array_5) - 1 #Novo tamanho
-primeiroElemento = array_5[0]
-array_5 = (array_5 - novo_tamanho_array_5) #Remove o último dígito
+enquanto tamanho_array_5 > 0 #Serve para rever todos os elementos do array enquanto não chegarmos a 0
+        para cada elemento em lista(array_5) #Percore todos os elementos
+                se array_5[elemento] != elemento_remover: #Se for o elemento for diferente do elemento a remover
+                        array_4[pos_0] = array_5[elemento] #Entao o elemento é passado para novo array na pos indice 0
+                                pos_0 = pos_0 + 1 #Cada vez que passar um item passa para a pos indice a seguir
+        continua()
+quebra()
 
-print("Bem vindo à este programa, este é o novo array: ", + array_5 + ".")
+print("Bem vindo à este programa, este é o novo array: ", + array_4 + ".")
+
+

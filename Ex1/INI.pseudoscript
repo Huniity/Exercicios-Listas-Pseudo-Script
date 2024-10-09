@@ -3,6 +3,6 @@
 funcao start():
         print('Olá!')
 
-empty_array = [""]
+empty_array = []
 
 print("Bem vindo à este programa, este é o array: ", + empty_array + ".")

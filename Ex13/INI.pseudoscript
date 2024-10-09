@@ -4,7 +4,7 @@ funcao start():
         print('Olá!')
 
 /*
-array_5 = [1 até 12]
+array_5 = [0 até 11]
 array_5[0] = Janeiro
 array_5[1] = Fevereiro
 array_5[2] = Marco

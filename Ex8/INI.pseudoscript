@@ -4,11 +4,19 @@ funcao start():
         print('Olá!')
 
 array_5 = [0, 1, 2, 3, 4]
+tamanho_array_5 = array_5.tamanho()
+
 
 entrada("Indique um número de 0 à 10 para saber se ele se encontra no array: ", encontrar_elemento )
 
+enquanto tamanho_array_5 > 0
     para cada elemento em lista(array_5)
             se elemento == encontrar_elemento
-                print("O seu elemento encontra se no array.")
+                tamanho_array_5 = tamanho_array_5 - 1
+
+                print("O seu elemento encontra se no array no índice: " + array[encontrar_elemento] + "")
             senao
                 print("O seu elemento não se encontra no array.")
+                
+    continua()
+quebra()

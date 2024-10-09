@@ -3,9 +3,22 @@
 funcao start():
         print('Olá!')
 
-array_1 = [1]
-array_2 = [2]
-soma(array_1[0] + array_2[0])
-    retorna array_3
 
-print("Bem vindo à este programa, este é o resultado da soma dos seus arrays iniciais: ", + array_3 + ".")
+print("Bem vindo à este programa, este é o valor do seu primeiro array: ", + array_1 + ".")
+print("Este é o seu segundo array: ", + array_2 + ".")
+
+array_1 = [7, 13, 23]
+array_2 = [26, 30, 34]
+array_3 = (array_1 + array_2)
+tamanho_array_3 = tamanho(array_3)
+soma = 0
+
+
+enquanto tamanho_array_3 > 0
+    para cada elemento em lista(array_3)
+        soma = soma + elemento
+            tamanho = tamanho - 1
+        continua()    
+quebra()
+
+print("Bem vindo à este programa, este é o resultado da soma dos seus arrays iniciais: ", + soma + ".")

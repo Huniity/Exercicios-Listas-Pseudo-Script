@@ -3,9 +3,12 @@
 funcao start():
         print('Olá!')
 
-array_5 = [0, 1, 2, 3, 4]
+array_5 = [7, 13, 24, 30, 32]
 
 
 print("Bem vindo à este programa, este é o valor inicial do 2º índice do array que escolheu: ", + array_5[1] + ".")
-array_5[1] = 10
+
+        entrada("Por introduza o novo valor do elemento", userNum)
+                array_5[1] = userNum
+                
 print("Bem vindo à este programa, este é o novo valor do 2º índice do array que escolheu: ", + array_5[1] + ".")
