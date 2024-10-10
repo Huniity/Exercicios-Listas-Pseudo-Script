@@ -1,18 +1,18 @@
-#Ordene os elementos de um array em ordem crescente.
+#Ordene os elementos de um array em ordem decrescente.
 
 lista = [1,22,4,6,88,2]
 
 
-funcao encontraMenorIndice(lista,indices_a_ignorar):
+funcao encontraMaiorIndice(lista,indices_a_ignorar):
     indices_a_ignorar = []
-    menor_numero=lista[0]
+    maior_numero=lista[0]
     indice_encontrado=0
     indice_atual = 0
     cada valor em lista:
         se indice_encontrado está em indices_a_ignorar:
             continua()
-        se valor < menor_numero:
-            menor_numero = valor
+        se valor > maior_numero:
+            maior_numero = valor
             indice_encontrado = indice_atual
         indice_atual = indice_atual+1
     retorne indice_encontrado
@@ -23,13 +23,12 @@ funcao ordenaArray(lista):
     indices_ja_processados=[]
     elementos_em_falta = lista.tamanho() -1
     enquanto elementos_em_falta >= 0:
-        indice_menor_numero = encontraMenorIndice(lista,indices_ja_processados)
-        lista_ordenada.adicionar(lista[indice_menor_numero])
+        indice_maior_numero = encontraMaiorIndice(lista,indices_ja_processados)
+        lista_ordenada.adicionar(lista[indice_maior_numero])
         elementos_em_falta = elementos_em_falta-1
-        indices_ja_processados.adicionar(indice_menor_numero)
+        indices_ja_processados.adicionar(indice_maior_numero)
     retorne lista_ordenada
 
 
-imprime(ordenaArray(a))     
+imprime(ordenaArray(lista))
 
-#Feito por Jorge Alves

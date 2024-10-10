@@ -1,0 +1,64 @@
+#Some duas matrizes e armazene o resultado numa terceira matriz.
+
+matriz_1 = [[1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9]]
+
+matriz_2 = [[1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9]]
+
+matriz_3 = [[],
+            [],
+            []]
+
+tamanho(matriz_3[0][0]) == tamanho(matriz_1[0][0]) == tamanho(matriz_2[0][0])
+
+#tamanho(matriz_1[0]) tamanho da coluna
+#tamanho(matriz_1) tamanho da linha
+
+funcao linha_soma_matriz():
+    
+    idx_linha = 0 #posicao indice initial linha 1 
+    idx_coluna = 0 #posicao indice initial linha 1
+    max_indice_l1 = tamanho(matriz_1[0]) -1 #indice maximo da linha 1 
+    max_indice_l2 = tamanho(matriz_1[1]) -1 #indice maximo da linha 2 
+    max_indice_l3 = tamanho(matriz_1[2]) -1 #indice maximo da linha 3 
+    
+    se tamanho(matriz_1[0][0]) == tamanho(matriz_2[0][0])
+        enquanto max_indice_l1 >= 0
+            para cada valor_1 em matriz_1([idx_linha][idx_coluna])
+                para cada valor_2 em matriz_2([idx_linha][idx_coluna])
+                    soma(valor_1 + valor_2)
+                        retorne valor_3
+                            valor_3 = matriz_3[idx_linha][idx_coluna]
+                                idx_coluna = idx_coluna + 1
+        
+        idx_linha = idx_linha + 1
+        idx_coluna = 0
+
+        enquanto max_indice_l2 >= 0
+            para cada valor_1 em matriz_1([idx_linha][idx_coluna])
+                para cada valor_2 em matriz_2([idx_linha][idx_coluna])
+                    soma(valor_1 + valor_2)
+                        retorne valor_3
+                            valor_3 = matriz_3[idx_linha][idx_coluna]
+                                idx_coluna = idx_coluna + 1
+        
+        idx_linha = idx_linha + 1
+        idx_coluna = 0
+
+        enquanto max_indice_l3 >= 0
+            para cada valor_1 em matriz_1([idx_linha][idx_coluna])
+                para cada valor_2 em matriz_2([idx_linha][idx_coluna])
+                    soma(valor_1 + valor_2)
+                        retorne valor_3
+                            valor_3 = matriz_3[idx_linha][idx_coluna]
+                                idx_coluna = idx_coluna + 1
+        
+        idx_linha = idx_linha + 1
+        idx_coluna = 0
+
+linha_soma_matriz()
+
+imprime("" + matriz_3 +)

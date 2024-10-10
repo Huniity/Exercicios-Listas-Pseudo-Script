@@ -1,0 +1,10 @@
+#Preencha uma matriz com valores fornecidos pelo utilizador.
+
+matriz_2_x_2 = [[]
+                []]
+
+entrada("Por favor introduza o valor linha 1 coluna 1 ", escolha1" e introduza o valor da linha 1 coluna 2", escolha2)
+entrada("Por favor introduza o valor linha 2 coluna 1 ", escolha3" e introduza o valor da linha 2 coluna 2", escolha4)
+
+matriz_2_x_2[[escolha1, escolha2]
+             [escolha3, escolha4]]

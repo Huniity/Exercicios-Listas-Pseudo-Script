@@ -1,0 +1,16 @@
+#https://www.geeksforgeeks.org/linear-search/
+
+funcao linear_search():
+
+idx = tamanho(array_1) -1
+para cada i em array_1(0, idx)
+    se numero_escolhido == array_1[i]
+        retorne Encontrado
+    se numero_escolhido != array1[i]
+        retorne Ausente
+
+    linear_search()
+        se escolhido == Encontrado
+    print("está no seu array na pos " + i +)
+        se escolhido == Ausente
+    print("não está no seu array")

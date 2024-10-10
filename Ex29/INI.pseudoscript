@@ -1,0 +1,56 @@
+#Transponha uma matriz.
+
+matriz_1 = [[1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9]]
+
+matriz_2 = [[],
+            [],
+            []]
+
+
+tamanho(matriz_1[0][0]) == tamanho(matriz_2[0][0])
+
+max_indice_l1 = tamanho(matriz_1[0]) - 1
+max_indice_l2 = tamanho(matriz_1[1]) - 1
+max_indice_l3 = tamanho(matriz_1[2]) - 1
+idx_linha = 0
+idx_coluna = 0
+idx_linha2 = 0
+idx_coluna2 = 0
+
+funcao transpor_matriz():
+    enquanto max_indice_l1 >= 0
+        para cada valor_1 em matriz_1([idx_linha][idx_coluna])
+            valor_1 == matriz_2[idx_linha2][idx_coluna2]
+                idx_coluna = idx_coluna + 1 
+                    idx_linha2 = idx_linha2 + 1
+    
+    idx_linha = idx_linha + 1
+    idx_coluna2 = idx_coluna2 + 1
+    idx_coluna = 0
+    idx_linha2 = 0
+
+    enquanto max_indice_l2 >= 0
+        para cada valor_1 em matriz_1([idx_linha][idx_coluna])
+            valor_1 == matriz_2[idx_linha2][idx_coluna2]
+                idx_coluna = idx_coluna + 1
+                    idx_linha2 = idx_linha2 + 1
+    
+    idx_linha = idx_linha + 1
+    idx_coluna2 = idx_coluna2 + 1
+    idx_coluna = 0
+    idx_linha2 = 0
+    enquanto max_indice_l3 >= 0
+        para cada valor_1 em matriz_1([idx_linha][idx_coluna])
+            valor_1 == matriz_2[idx_linha2][idx_coluna2]
+                idx_coluna = idx_coluna + 1
+                    idx_linha2 = idx_linha2 + 1
+    
+    idx_linha = idx_linha + 1
+    idx_coluna2 = idx_coluna2 + 1
+    idx_coluna = 0
+    idx_linha2 = 0
+
+transpor_matriz()
+imprime("" + matriz_2 + )

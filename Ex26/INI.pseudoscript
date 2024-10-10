@@ -1,0 +1,5 @@
+#Declare uma matriz 3x3.
+
+matriz_3_x_3 = [[1, 2, 3]
+                [4, 5, 6]
+                [7, 8, 9]]
