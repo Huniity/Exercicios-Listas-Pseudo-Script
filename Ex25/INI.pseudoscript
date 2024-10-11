@@ -1,0 +1,14 @@
+array_1 = [1, 2, 3, 4, 5, 6]
+index_0 = 0
+index_last = array_1.tamanho() -1
+
+enquanto index_last >= 0
+    para cada valor em array_1
+        se array_1[index_0] > array_1[index_0 + 1]
+            retorne Errado
+        senao
+            index_0 = index_0 + 1
+
+
+            
+            

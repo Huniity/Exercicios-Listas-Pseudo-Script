@@ -10,7 +10,7 @@ enquanto tamanho > 0
     para cada elemento em lista(array)
         elemento == 3
             tamanho = tamanho - 1
-    quebra()
+
 
 # ou
 # array_5 = [3] * 5

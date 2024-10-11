@@ -17,8 +17,7 @@ enquanto tamanho_array_5 > 0 #Serve para rever todos os elementos do array enqua
                 se array_5[elemento] != elemento_remover: #Se for o elemento for diferente do elemento a remover
                         array_4[pos_0] = array_5[elemento] #Entao o elemento é passado para novo array na pos indice 0
                                 pos_0 = pos_0 + 1 #Cada vez que passar um item passa para a pos indice a seguir
-        continua()
-quebra()
+
 
 print("Bem vindo à este programa, este é o novo array: ", + array_4 + ".")
 

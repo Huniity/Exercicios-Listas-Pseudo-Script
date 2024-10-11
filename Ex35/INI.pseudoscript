@@ -1,0 +1,16 @@
+#Ex35
+
+vogais = [a, e, i, o, u]
+string = "Eu sou o adrien"
+tamanho = tamanho(string)
+contador = 0
+
+enquanto tamanho > 0 
+  para cada letra em string
+    se letra esta em array(vogais)
+      contador = contador + 1
+      tamanho = tamanho - 1
+    senao
+      continua()
+imprime("A sua string contém: " + contador +)
+

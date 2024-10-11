@@ -1,0 +1,10 @@
+#ex 34
+
+entrada(" Por favor introduza o número de troca: ", numero_troca)
+array_1 = [7, 13, 23, 30, 34]
+
+imprime("O seu array original é assim: " + array_1 +)
+
+array_1 = array_1[ - numero_troca :] + array_1[: - numero_troca]
+
+imprime("O seu array modificado é assim: " + array_1 +)

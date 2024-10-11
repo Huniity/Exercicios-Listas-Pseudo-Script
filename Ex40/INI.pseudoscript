@@ -1,0 +1,14 @@
+#Ex40
+
+string = " Eu sou o Adrien"
+espaco = " "
+tamanho = tamanho(string)
+array = []
+index_l1 = 0
+
+enquanto tamanho > 0
+  para cada letra em string
+      adicionar array[index_l1,0]
+        se letra == espaco
+          index_l1 = index_l1 +1
+imprime(+ array +)

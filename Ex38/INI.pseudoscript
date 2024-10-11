@@ -1,0 +1,6 @@
+#Ex38
+
+string1 = "Eu sou"
+string2 = "o Adrien"
+string_concatenada = string1 + "" + string2
+

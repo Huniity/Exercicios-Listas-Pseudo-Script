@@ -1,5 +1,3 @@
-#https://www.geeksforgeeks.org/linear-search/
-
 funcao linear_search():
 
 idx = tamanho(array_1) -1

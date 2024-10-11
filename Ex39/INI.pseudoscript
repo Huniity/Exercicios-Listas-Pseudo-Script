@@ -1,0 +1,13 @@
+#Ex39
+
+string = "Eu sou o Adrien"
+letra_a_substituir = o
+letra_substituida = a
+tamanho_string = tamanho(string)
+
+enquanto tamanho_string > 0
+  para cada letra em string
+    se letra_a_substituir == letra
+      letra == letra_substituida
+        retorne string_nova
+

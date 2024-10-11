@@ -1,0 +1,11 @@
+#ex 37
+
+string = "Eu sou o adrien"
+tamanho_string = tamanho(string)
+meio = tamanho_string % 2
+  para cada letra em string(0, meio)
+    se string[letra] != string[letra -1]
+    return nao
+    imprime("A sua string não é um palíndromo")
+  imprime("A sua string é um palíndromo")
+

@@ -1,0 +1,24 @@
+#ex 33
+
+
+funcao palindromo():
+array_1 = [1, 2, 3, 2, 1]
+array_revertido = []
+index_a1 = tamanho(array_1) - 1
+index_ini = 0
+index_end = index_a1
+
+enquanto index_a1 = tamanho.array_1 % 2
+  para cada elemento em array_1
+    se array_1[index_ini] == array_1[index_end]
+      index_ini = index_ini + 1
+      index_end = index_end -1
+    retorne sim
+
+retorne não
+
+resultado = palindromo(array_1)
+  se resultado = sim
+    imprime("O seu array é um palíndromo")
+  senao
+    imprime("O seu array n\ao é um palíndromo")

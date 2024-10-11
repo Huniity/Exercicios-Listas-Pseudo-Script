@@ -18,5 +18,3 @@ enquanto tamanho_array_5 > 0
             senao
                 print("O seu elemento não se encontra no array.")
                 
-    continua()
-quebra()

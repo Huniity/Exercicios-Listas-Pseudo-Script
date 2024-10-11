@@ -1,5 +1,3 @@
-bubble sort 
-
 array_1 = [30, 7, 23, 13, 34]
 tamanho = tamanho(array_1)
 

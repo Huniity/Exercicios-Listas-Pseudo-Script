@@ -1,0 +1,16 @@
+#Ex36
+
+array_1 = [7, 13, 23, 30, 34]
+index_0 = 0
+index_fim = tamanho(array_1) - 1
+novo_array = []
+tamanho(novo_array) = tamanho(array_1)
+
+  enquanto index_fim >= 0
+    para cada valor em array_1[::-1]
+      novo_array.adicionar(valor[index_0])
+        index_0 = index_0 + 1
+          index_fim = index_fim -1
+
+imprime("O seu array original é: " + array_1 + ", e o seu array revertido é: " + novo_array +).
+
