@@ -1,27 +1,19 @@
 bubble sort 
 
+array_1 = [30, 7, 23, 13, 34]
+tamanho = tamanho(array_1)
 
-enquanto o ultimo numero ::-1 < ::-2
-    idx ::-1 -1
-        idx ::-2 + 1
-    ::-1 idx
 
-# https://panda.ime.usp.br/panda/static/pythonds_pt/05-OrdenacaoBusca/OBubbleSort.html#:~:text=O%20bubble%20sort%20realiza%20m%C3%BAltiplas,que%20est%C3%A3o%20fora%20de%20ordem.
-/*
-def shortBubbleSort(alist):
-    exchanges = True
-    passnum = len(alist)-1
-    while passnum > 0 and exchanges:
-       exchanges = False
-       for i in range(passnum):
-           if alist[i]>alist[i+1]:
-               exchanges = True
-               temp = alist[i]
-               alist[i] = alist[i+1]
-               alist[i+1] = temp
-       passnum = passnum-1
 
-alist=[20,30,40,90,50,60,70,80,100,110]
-shortBubbleSort(alist)
-print(alist)
-*/
+funcao bubblesort():
+
+para cada valor1 dentro do array do 0 até -1
+    para cada valor2 adjacente a valor1
+        se array_1[valor2] > array_1[valor2+1]
+            array_1[valor2], array_1[valor2+1] = array_1[valor2+1], array_1[valor2] #troca posições
+
+
+
+    imprimir( "Não sorteado" + array_1 +)
+bubblesort(array_1)
+    imprimir( "Sorteado" + array_1 +)
