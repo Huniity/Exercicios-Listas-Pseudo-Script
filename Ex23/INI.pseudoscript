@@ -32,3 +32,5 @@ funcao ordenaArray(lista):
 
 imprime(ordenaArray(lista))
 
+#Ex 24
+Implemente a busca binária num array ordenado.
