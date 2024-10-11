@@ -87,3 +87,63 @@ imprime("A sua string contém: " + contador +)
 
 
 
+#Ex36
+
+array_1 = [7, 13, 23, 30, 34]
+index_0 = 0
+index_fim = tamanho(array_1) - 1
+novo_array = []
+tamanho(novo_array) = tamanho(array_1)
+
+  enquanto index_fim >= 0
+    para cada valor em array_1[::-1]
+      novo_array.adicionar(valor[index_0])
+        index_0 = index_0 + 1
+          index_fim = index_fim -1
+
+imprime("O seu array original é: " + array_1 + ", e o seu array revertido é: " + novo_array +).
+
+#ex 37
+
+string = "Eu sou o adrien"
+tamanho_string = tamanho(string)
+meio = tamanho_string % 2
+  para cada letra em string(0, meio)
+    se string[letra] != string[letra -1]
+    return nao
+    imprime("A sua string não é um palíndromo")
+  imprime("A sua string é um palíndromo")
+
+#Ex38
+
+string1 = "Eu sou"
+string2 = "o Adrien"
+string_concatenada = string1 + "" + string2
+
+#Ex39
+
+string = "Eu sou o Adrien"
+letra_a_substituir = o
+letra_substituida = a
+tamanho_string = tamanho(string)
+
+enquanto tamanho_string > 0
+  para cada letra em string
+    se letra_a_substituir == letra
+      letra == letra_substituida
+        retorne string_nova
+
+#Ex40
+
+string = " Eu sou o Adrien"
+espaco = " "
+tamanho = tamanho(string)
+array = []
+index_l1 = 0
+
+enquanto tamanho > 0
+  para cada letra em string
+      adicionar array[index_l1,0]
+        se letra == espaco
+          index_l1 = index_l1 +1
+imprime(+ array +)
