@@ -12,10 +12,10 @@ funcao busca_binaria():
     se array_1[meio] > numero_escolhido
       esquerda = meio - 1
 
-    se array_1[meio] < numero_escolhido
-      direita = meio -1
+      ou se array_1[meio] < numero_escolhido
+        direita = meio -1
 
-    se array_1[meio] == numero_escolhido
+      ou se array_1[meio] == numero_escolhido
       retorne = meio
 
   retorne não_encontrado
@@ -26,3 +26,46 @@ array_1 = [7, 13, 23, 30, 34]
 resultado = busca_linear(array_1, numero_escolhido)
   se resultado != não_encontrado
     imprime("O seu numero esta présente no array: " +array[meio]
+
+
+
+
+#ex 33
+
+
+funcao palindromo():
+array_1 = [1, 2, 3, 2, 1]
+array_revertido = []
+index_a1 = tamanho(array_1) - 1
+index_ini = 0
+index_end = index_a1
+
+enquanto index_a1 = tamanho.array_1 % 2
+  para cada elemento em array_1
+    se array_1[index_ini] == array_1[index_end]
+      index_ini = index_ini + 1
+      index_end = index_end -1
+    retorne sim
+
+retorne não
+
+resultado = palindromo(array_1)
+  se resultado = sim
+    imprime("O seu array é um palíndromo")
+  senao
+    imprime("O seu array n\ao é um palíndromo")
+
+
+#ex 34
+
+entrada(" Por favor introduza o número de troca: ", numero_troca)
+array_1 = [7, 13, 23, 30, 34]
+
+imprime("O seu array original é assim: " + array_1 +)
+
+array_1 = array_1[ - numero_troca :] + array_1[: - numero_troca]
+
+imprime("O seu array modificado é assim: " + array_1 +)
+
+
+
