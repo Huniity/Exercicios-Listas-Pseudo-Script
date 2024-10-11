@@ -1,6 +1,3 @@
-https://www.geeksforgeeks.org/python-program-for-binary-search/
-
-
 funcao busca_binaria():
   esquerda = 0
   idx_max = tamanho(array_1) - 1
